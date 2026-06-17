@@ -1,2 +1,4 @@
 # pir-light-hardware
-PIR motion-controlled light module with ambient light threshold and soft-start
+This repository contains the electrical schematics, PCB layout, and hardware documentation for a compact passive infrared (PIR) motion-controlled light module with ambient light threshold detection and soft-start behavior.
+
+The system automatically controls lighting based on detected motion and ambient light conditions, ensuring the light only activates in low-light environments. It operates fully in hardware, without requiring software or network connectivity.
