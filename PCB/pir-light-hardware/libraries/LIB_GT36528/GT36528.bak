@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "PR"
+		(property "Value" "8-20kR"
 			(at 0 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -80,7 +80,7 @@
 					(xy -1.27 -3.175) (xy 0 -1.905) (xy -0.635 -1.905) (xy 0 -1.905) (xy 0 -2.54)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1778)
 					(type solid)
 				)
 				(fill
@@ -92,7 +92,7 @@
 					(xy 0.635 -3.175) (xy 1.905 -1.905) (xy 1.27 -1.905) (xy 1.905 -1.905) (xy 1.905 -2.54)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1778)
 					(type solid)
 				)
 				(fill

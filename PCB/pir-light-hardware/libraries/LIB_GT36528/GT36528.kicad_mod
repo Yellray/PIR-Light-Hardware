@@ -7,7 +7,7 @@
 		(at 0 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "51d221ce-fe8c-4ca5-9000-259c5ae64e77")
+		(uuid "100543b3-1772-411e-9ced-81e8a058c9ff")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dec657d7-d53d-441d-8add-e96827c8a144")
+		(uuid "eca1125b-82cb-421d-83f5-e98244d38bb4")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae1684ea-9cc7-46fb-a4b1-12e0e1825c1b")
+		(uuid "d4da57cf-1edc-421a-8baa-0a2b375ded5d")
 		(effects
 			(font
 				(size 1 1)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6a66b8db-b299-4a40-91d6-77fadd2aab98")
+		(uuid "54d3a447-02a7-4e78-9919-95a04f0194e1")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8785143e-9ef3-4b7e-a380-bbaabab1ad9b")
+		(uuid "357e5358-03d7-4083-9255-9c87426baf80")
 	)
 	(fp_line
 		(start 0.6 -1.4)
@@ -76,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "81ce742a-12b7-47a2-89e7-d2faba5d5943")
+		(uuid "1897e370-aad3-4cfe-a6b2-de351a93fc4e")
 	)
 	(fp_rect
 		(start -2.7 -1.6)
@@ -87,13 +87,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7cf8508a-83cc-4aef-90f3-86f1b5faa8a0")
+		(uuid "d134873e-eb20-4fe0-958b-f2a241dbc4cb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1da536ab-1a16-41e0-b08a-b19cfcd6c61d")
+		(uuid "4642bd30-14eb-42e9-bfa8-d5c7f5eed8a8")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -107,14 +107,25 @@
 		(size 2.6 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
-		(uuid "37dc469d-e3be-472d-be16-e9066187577b")
+		(uuid "1df0a693-abc0-4106-8acc-ebf5e360cc30")
 	)
 	(pad "2" smd roundrect
 		(at 1.6 0 90)
 		(size 2.6 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
-		(uuid "6217318d-8941-4bc2-ae92-c957d12cfeac")
+		(uuid "1f72a949-5638-49ca-8887-598a80a40d07")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/LIB_GT36528/GT36516.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

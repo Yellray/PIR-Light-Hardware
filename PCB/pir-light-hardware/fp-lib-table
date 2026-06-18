@@ -3,4 +3,6 @@
 	(lib (name "M74VHC1GT08D") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_M74VHC1GT08DFT2G") (options "") (descr ""))
 	(lib (name "LMV331IDCKR") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_LMV331IDCKR") (options "") (descr ""))
 	(lib (name "GT36528") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_GT36528") (options "") (descr ""))
+	(lib (name "REST") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_REST") (options "") (descr ""))
+	(lib (name "AON7240") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_AON7240") (options "") (descr ""))
 )

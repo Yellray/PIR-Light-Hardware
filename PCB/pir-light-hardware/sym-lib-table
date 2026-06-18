@@ -5,4 +5,5 @@
 	(lib (name "GT36528") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_GT36528/GT36528.kicad_sym") (options "") (descr ""))
 	(lib (name "REST") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_REST/REST.kicad_sym") (options "") (descr ""))
 	(lib (name "GT36528") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_GT36528/GT36528.kicad_sym") (options "") (descr ""))
+	(lib (name "AON7240") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_AON7240/AON7240.kicad_sym") (options "") (descr ""))
 )

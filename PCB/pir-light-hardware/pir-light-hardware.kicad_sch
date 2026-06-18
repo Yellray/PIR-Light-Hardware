@@ -5,6 +5,290 @@
 	(uuid "2adb9c99-9187-4750-a82d-5fddf415ae5e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AON7240:AON7240"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" "AON7240:AON7240"
+				(at 0 10.795 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7240.pdf"
+				(at 0 13.335 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AON7240_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.016) (xy 1.905 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.524) (xy -0.381 1.651) (xy -0.381 2.413) (xy -0.254 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 2.032) (xy 0.254 1.651) (xy 0.254 2.413) (xy -0.381 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.381)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy -0.381 0.762) (xy 0.381 0.762) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.508) (xy 1.778 2.032) (xy -1.778 2.032) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7240_1_1"
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GT36528:GT36528"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -80,10 +364,10 @@
 			(symbol "GT36528_1_1"
 				(polyline
 					(pts
-						(xy -1.27 -3.175) (xy 0 -1.905) (xy -0.635 -1.905) (xy 0 -1.905) (xy 0 -2.54)
+						(xy -1.905 -3.175) (xy -0.635 -1.905) (xy -1.27 -1.905) (xy -0.635 -1.905) (xy -0.635 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1778)
 						(type solid)
 					)
 					(fill
@@ -92,10 +376,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -3.175) (xy 1.905 -1.905) (xy 1.27 -1.905) (xy 1.905 -1.905) (xy 1.905 -2.54)
+						(xy 0 -3.175) (xy 1.27 -1.905) (xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1778)
 						(type solid)
 					)
 					(fill
@@ -134,6 +418,184 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "REST:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(arc
+					(start -0.762 1.524)
+					(mid -0.3734 0)
+					(end -0.762 -1.524)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 0.508 -1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.016) (xy 1.778 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.27) (xy 1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -284,7 +746,7 @@
 	)
 	(symbol
 		(lib_id "REST:R")
-		(at 121.285 97.79 270)
+		(at 121.285 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -294,7 +756,7 @@
 		(dnp no)
 		(uuid "202d87a1-6f82-40ee-a63c-911676879810")
 		(property "Reference" "R1"
-			(at 123.19 96.52 90)
+			(at 123.19 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -305,7 +767,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 123.19 98.425 90)
+			(at 123.19 90.805 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -316,7 +778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.285 96.012 90)
+			(at 121.285 88.392 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -327,7 +789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.285 97.79 0)
+			(at 121.285 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -338,7 +800,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.905 97.79 0)
+			(at 128.905 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -365,7 +827,7 @@
 	)
 	(symbol
 		(lib_id "GT36528:GT36528")
-		(at 137.16 94.615 270)
+		(at 135.255 93.345 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -375,7 +837,7 @@
 		(dnp no)
 		(uuid "25490b4b-16c9-4772-9cd0-6fd1ac290a5b")
 		(property "Reference" "PR1"
-			(at 139.065 93.345 90)
+			(at 137.16 92.075 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -386,7 +848,7 @@
 			)
 		)
 		(property "Value" "8-20kR"
-			(at 139.065 95.25 90)
+			(at 137.16 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -397,7 +859,7 @@
 			)
 		)
 		(property "Footprint" "GT36528:GT36528"
-			(at 144.145 94.615 0)
+			(at 142.24 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -408,7 +870,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/jingchuang_gt36528_apr22_xonlink.pdf"
-			(at 146.685 94.615 0)
+			(at 144.78 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -419,7 +881,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 94.615 0)
+			(at 135.255 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -446,7 +908,7 @@
 	)
 	(symbol
 		(lib_id "REST:R")
-		(at 121.285 90.805 0)
+		(at 121.285 83.185 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -456,7 +918,7 @@
 		(dnp no)
 		(uuid "60471188-47d9-46b0-a62c-3ac08128c1ab")
 		(property "Reference" "R2"
-			(at 121.285 86.36 0)
+			(at 121.285 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -466,7 +928,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 121.285 88.265 0)
+			(at 121.285 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -476,7 +938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.507 90.805 90)
+			(at 119.507 83.185 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -487,7 +949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.285 90.805 0)
+			(at 121.285 83.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -498,7 +960,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.285 83.185 0)
+			(at 121.285 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -518,6 +980,172 @@
 			(project "pir-light-hardware"
 				(path "/2adb9c99-9187-4750-a82d-5fddf415ae5e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "REST:C_Polarized")
+		(at 152.4 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7c35f80-43c5-47c8-b5ac-aee12c0110a1")
+		(property "Reference" "C1"
+			(at 154.94 89.535 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 154.94 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "REST:CP_Elec_4x5.4"
+			(at 152.4 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 142.875 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f71233f-319b-441d-b352-0cacac46b1f5")
+		)
+		(pin "2"
+			(uuid "a84c351b-f40b-47c7-a2fb-d6d6b6a4938d")
+		)
+		(instances
+			(project "pir-light-hardware"
+				(path "/2adb9c99-9187-4750-a82d-5fddf415ae5e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AON7240:AON7240")
+		(at 139.7 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d828c41f-1ba9-469d-80ff-b3427dbd5ba8")
+		(property "Reference" "Q1"
+			(at 144.145 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 144.145 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AON7240:AON7240"
+			(at 150.495 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7240.pdf"
+			(at 153.035 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4fa3ead-2ede-4fad-b01f-b09f03ed085a")
+		)
+		(pin "3"
+			(uuid "31ea704e-0c23-44f3-ae45-85aae4d07982")
+		)
+		(pin "2"
+			(uuid "0aae13b8-7eb7-4442-aab5-cde11e07e28b")
+		)
+		(instances
+			(project "pir-light-hardware"
+				(path "/2adb9c99-9187-4750-a82d-5fddf415ae5e"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
