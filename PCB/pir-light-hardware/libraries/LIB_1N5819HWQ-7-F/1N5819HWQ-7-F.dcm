@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N5819HWQ-7-F
+D Schottky Diode 40 V 1A Surface Mount SOD-123
+K
+F https://www.diodes.com//assets/Datasheets/1N5819HW.pdf
+$ENDCMP
+#
+#End Doc Library

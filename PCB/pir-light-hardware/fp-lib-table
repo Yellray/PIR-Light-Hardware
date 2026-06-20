@@ -5,4 +5,7 @@
 	(lib (name "GT36528") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_GT36528") (options "") (descr ""))
 	(lib (name "REST") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_REST") (options "") (descr ""))
 	(lib (name "AON7240") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_AON7240") (options "") (descr ""))
+	(lib (name "1N5819HWQ-7-F") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_1N5819HWQ-7-F") (options "") (descr ""))
+	(lib (name "LED-ROD") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_LED-ROD") (options "") (descr ""))
+	(lib (name "AS312") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_AS312") (options "") (descr ""))
 )
