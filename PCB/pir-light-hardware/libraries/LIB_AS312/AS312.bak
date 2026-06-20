@@ -184,6 +184,30 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 7.3025 4.1275) (xy 6.0325 2.8575) (xy 6.0325 3.4925) (xy 6.0325 2.8575) (xy 6.6675 2.8575)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.3025 2.2225) (xy 6.0325 0.9525) (xy 6.0325 1.5875) (xy 6.0325 0.9525) (xy 6.6675 0.9525)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
