@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DTA114EUAHE3-TP
+D DIGITAL TRANSISTOR PNP 50V 0.1A SOT-323
+K
+F https://www.mccsemi.com/pdf/Products/DTA114EUAHE3(SOT-323).pdf
+$ENDCMP
+#
+#End Doc Library

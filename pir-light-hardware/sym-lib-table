@@ -9,4 +9,6 @@
 	(lib (name "LED-ROD") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_LED-ROD/LED-ROD.kicad_sym") (options "") (descr ""))
 	(lib (name "AS312") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_AS312/AS312.kicad_sym") (options "") (descr ""))
 	(lib (name "ZH-CONNECTOR") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_ZH-CONNECTOR/ZH-CONNECTOR.kicad_sym") (options "") (descr ""))
+	(lib (name "DTC114EUA-TP") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_DTC114EUA-TP/DTC114EUA-TP.kicad_sym") (options "") (descr ""))
+	(lib (name "DTA114EUAHE3-TP") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_DTA114EUAHE3-TP/DTA114EUAHE3-TP.kicad_sym") (options "") (descr ""))
 )
